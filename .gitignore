@@ -1,0 +1,9 @@
+.env
+node_modules
+
+# Generated csv files
+*.csv
+
+# Editor configuration files
+.idea/
+.vscode/
