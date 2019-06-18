@@ -10,6 +10,10 @@ const ItemSchema = new mongoose.Schema (
     quantity: {type: Number, default: 1},
     purchased: {type: Boolean, default: false},
     deadline: {type: Date, default: Date.now ()},
+    user: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: 'User',
+    },
   },
   {timestamps: true}
 );

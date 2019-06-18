@@ -18,6 +18,7 @@ Mongoose - Mongoose is an Object Data Modeling (ODM) library for MongoDB and Nod
 -  [x] Users can sign up.
 -  [x] Users can login.
 -  [x] A user can create shopping items.
+-  [x] A user can retrieve their shopping items.
 
 ## Developer/Owner
 [Meshack Mbuvi](https://github.com/meshack-mbuvi)
